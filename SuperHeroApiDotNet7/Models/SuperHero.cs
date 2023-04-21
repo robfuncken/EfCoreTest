@@ -8,5 +8,8 @@
         public string LastName { get; set; } = string.Empty;
         public string Place { get; set; } = string.Empty;
 
+        public int TeamId { get; set; }
+        public Team Team { get; set; } = null!;
+
     }
 }
